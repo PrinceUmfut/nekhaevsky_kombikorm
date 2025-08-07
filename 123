@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Нехаевский Комбикорм</title>
+  <meta name="description" content="Качественные комбикорма для птиц и животных от производителя. Доставка по региону.">
+  <meta name="keywords" content="комбикорм, корма для птиц, корма для животных, ПК 5-4, ПК 6-6, ПК 1-18">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <strong>Нехаевский Комбикорм</strong>
+    <nav>
+      <a href="#catalog">Каталог</a>
+      <a href="#about">О нас</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Корма для птицы и животных</h1>
+    <button onclick="document.getElementById('catalog').scrollIntoView({behavior: 'smooth'})">Смотреть каталог</button>
+  </div>
+
+  <section class="catalog" id="catalog">
+    <h2>Каталог продукции</h2>
+    <div class="products">
+      <div class="product">
+        <h3>ПК 5-4</h3>
+        <p class="info">Бройлеры, 0–18 дней</p>
+        <p>Цена: 1300₽/мешок (52₽/кг)</p>
+      </div>
+      <div class="product">
+        <h3>ПК 6-6</h3>
+        <p class="info">Бройлеры, 19–38 дней</p>
+        <p>Цена: 1250₽/мешок (50₽/кг)</p>
+      </div>
+      <div class="product">
+        <h3>ПК 1-18</h3>
+        <p class="info">Несушка для яичных кур</p>
+        <p>Цена: 850₽/мешок (34₽/кг)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>О компании</h2>
+    <p>Нехаевский комбикорм — производитель качественных кормов для птиц и животных. Наши продукты обеспечивают быстрый рост, высокую яйценоскость и здоровье животных. На рынке более 10 лет.</p>
+  </section>
+
+  <section class="section reviews" id="reviews">
+    <h2>Отзывы</h2>
+    <p>“Покупаем уже третий год — куры довольны, яйца крупные!” — Анна, фермер</p>
+    <p>“Лучшее соотношение цена-качество в регионе” — Иван, свиновод</p>
+  </section>
+
+  <section class="section faq" id="faq">
+    <h2>Часто задаваемые вопросы</h2>
+    <p><strong>Где вы находитесь?</strong><br>ЛНР, с. Половинкино, ул. Горького, д. 6</p>
+    <p><strong>Есть ли доставка?</strong><br>Да, по предварительному заказу.</p>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Связаться с нами</h2>
+    <form>
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="5" placeholder="Сообщение" required></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+    <p>Email: nekhaienko70@mail.ru | Тел: +7 (959) 230-14-44 Василий</p>
+    <p>
+      <iframe src="https://maps.google.com/maps?q=ул.%20Горького,%20с.%20Половинкино&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="200" allowfullscreen></iframe>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Нехаевский Комбикорм</p>
+  </footer>
+</body>
+</html>
