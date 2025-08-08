@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Нехаевский комбикорм — Главная</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .products-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .product-card {
+      background: #fffbe9;
+      border-radius: 12px;
+      box-shadow: 0 1px 4px #e5d4a1;
+      width: 290px;
+      padding: 18px 12px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: box-shadow 0.2s;
+    }
+    .product-card:hover {
+      box-shadow: 0 4px 16px #e5d4a1;
+    }
+    .product-card img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      background: #faf6e1;
+    }
+    .product-card h3 {
+      margin: 8px 0 4px;
+      color: #a8834f;
+      font-size: 1.1em;
+    }
+    .product-card p {
+      margin: 3px 0;
+      font-size: 0.98em;
+      color: #4a3820;
+    }
+    .product-card .price {
+      margin-top: 8px;
+      font-weight: bold;
+      color: #7d5b32;
+    }
+    .product-card .details-btn {
+      margin-top: 10px;
+      background: #e3b142;
+      color: #4a3820;
+      border: none;
+      padding: 10px 28px;
+      border-radius: 24px;
+      font-size: 1em;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s;
+      display: inline-block;
+    }
+    .product-card .details-btn:hover {
+      background: #a8834f;
+      color: #fff;
+    }
+    .about {
+      max-width: 800px;
+      margin: 40px auto 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.svg" alt="Логотип" class="logo">
+    <h1>Нехаевский комбикорм</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </header>
+  <main>
+    <section class="about">
+      <h2>О компании</h2>
+      <p>Мы производим и поставляем комбикорма для птиц и животных по выгодным ценам. Работаем с оптом и в розницу, гарантируем качество продукции и быструю доставку по региону.</p>
+    </section>
+    <section class="catalog">
+      <h2>Каталог продукции</h2>
+      <div class="products-grid">
+        <!-- Продукт 1 -->
+        <div class="product-card">
+          <img src="img/broiler_start.jpg" alt="Старт для бройлеров">
+          <h3>ПК 5-4 (Старт для бройлеров)</h3>
+          <p>Возраст: 0-18 дней</p>
+          <p>Фасовка: 25 кг</p>
+          <p class="price">Розница: 52₽/кг (1300₽/мешок)<br>Опт: 48₽/кг (1200₽/мешок)</p>
+          <a href="broiler_start.html" class="details-btn">Подробнее</a>
+        </div>
+        <!-- Продукт 2 -->
+        <div class="product-card">
+          <img src="img/broiler_feed.jpg" alt="Откорм для бройлеров">
+          <h3>ПК 6-6 (Откорм для бройлеров)</h3>
+          <p>Возраст: 19-38 дней</p>
+          <p>Фасовка: 25 кг</p>
+          <p class="price">Розница: 45₽/кг (1125₽/мешок)<br>Опт: 42₽/кг (1050₽/мешок)</p>
+          <a href="broiler_feed.html" class="details-btn">Подробнее</a>
+        </div>
+        <!-- Продукт 3 -->
+        <div class="product-card">
+          <img src="img/broiler_finish.jpg" alt="Финиш для бройлеров">
+          <h3>ПК 6-7 (Финиш для бройлеров)</h3>
+          <p>Возраст: от 39 дней</p>
+          <p>Фасовка: 25 кг</p>
+          <p class="price">Розница: 43₽/кг (1075₽/мешок)<br>Опт: 40₽/кг (1000₽/мешок)</p>
+          <a href="broiler_finish.html" class="details-btn">Подробнее</a>
+        </div>
+        <!-- Продукт 4 -->
+        <div class="product-card">
+          <img src="img/chick_start.jpg" alt="Старт для цыплят, утят, гусят">
+          <h3>ПК 2-6 (Старт для цыплят, утят, гусят)</h3>
+          <p>Возраст: 0-8 недель</p>
+          <p>Фасовка: 25 кг</p>
+          <p class="price">Розница: 44₽/кг (1100₽/мешок)<br>Опт: 39₽/кг (975₽/мешок)</p>
+          <a href="chick_start.html" class="details-btn">Подробнее</a>
+        </div>
+        <!-- Продукт 5 -->
+        <div class="product-card">
+          <img src="img/duck_feed.jpg" alt="Откорм для утят, цыплят, гусят">
+          <h3>ПК 3-4 (Откорм для утят, цыплят, гусят)</h3>
+          <p>Возраст: от 9 недель</p>
+          <p>Фасовка: 25 кг</p>
+          <p class="price">Розница: 42₽/кг (1050₽/мешок)<br>Опт: 37₽/кг (925₽/мешок)</p>
+          <a href="duck_feed.html" class="details-btn">Подробнее</a>
+        </div>
+        <!-- Продукт 6 -->
+        <div class="product-card">
+          <img src="img/layer_feed.jpg" alt="Несушка для яичных кур">
+          <h3>ПК 1-18 (Несушка для яичных кур)</h3>
+          <p>Возраст: от 21 недели</p>
+          <p>Фасовка: 25 кг</p>
+          <p class="price">Розница: 34₽/кг (850₽/мешок)<br>Опт: 31₽/кг (775₽/мешок)</p>
+          <a href="layer_feed.html" class="details-btn">Подробнее</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Нехаевский комбикорм</p>
+  </footer>
+</body>
+</html>
